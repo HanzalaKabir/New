@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background-image: url(Background_1.png);
+  height: 100%;
+  background-repeat: no-repeat;
+}
+#circle {
+  max-width: 40%;
+  border-radius: 1000px;
+  position: relative;
+  top: 22%;
+}
+#left {
+  position: relative;
+  left: 10%;
+}
+.main {
+  display: flex;
+}
+#inner {
+  position: relative;
+  right: 25%;
+  width: 35%;
+}
+#text {
+  font-family: "Dosis", sans-serif;
+  position: relative;
+  color: white;
+  top: 11%;
+}
+#message {
+  font-size: 30px;
+  margin: 0px;
+}
+#welcome {
+  margin: 0px;
+  font-size: 100px;
+}
+@media  screen and (min-width: 1131px) {
+  #circle {
+    max-width: 50%;
+    position: relative;
+    right: 15%;
+  }
+  #left {
+    left: 25%;
+  }
+  #inner {
+    right: 10%;
+    width: 70%;
+  }
+  #text {
+    top: 1%;
+  }
+}
